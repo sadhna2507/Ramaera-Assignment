@@ -1,5 +1,3 @@
-// import Table from 'react-bootstrap/Table';
-
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -11,7 +9,7 @@ function Home() {
         <div className="table">
           <table>
             <thead>
-              <tr style={{ height: "4rem" }}>
+              <tr>
                 <th>Name</th>
                 <th>About</th>
                 <th>Status</th>
